@@ -7,6 +7,7 @@
     </div>
   </div>
 </template>
+
 <style>
 body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -14,11 +15,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background:#18181E;
   color:white;
-  padding:60px;
+  padding:20px;
 }
 
 input{
-  font-size:60px;
+  font-size:50px;
   font-family: inherit;
   background:none;
   border:none;
