@@ -1,7 +1,7 @@
 <template>
   <div>
     <form @submit="questions">
-      <input placeholder="What is your question?" />
+      <input @input="resetActiveGif" placeholder="What is your question?" />
     </form>
     <div class="gif-container">
       <img :src="activeGif" />
