@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form>
+    <form @submit="questions">
       <input placeholder="What is your question?" />
     </form>
     <div class="gif-container">
