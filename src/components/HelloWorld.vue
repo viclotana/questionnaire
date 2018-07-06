@@ -24,6 +24,13 @@ export default {
       gifs,
       activeGif: null
     }
+  },
+  methods: {
+    sendQuestion(e){
+      e.preventDefault();
+      let index = Math.floor(Math.random() * 16) + 0;
+      this.activeGif = this.gifs[index];
+    }
   }
 }
 </script>
