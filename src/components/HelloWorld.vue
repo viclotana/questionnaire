@@ -19,5 +19,11 @@ let gifs = [
 ]
 export default {
   name: 'App',
+  data () {
+    return {
+      gifs,
+      activeGif: null
+    }
+  }
 }
 </script>
